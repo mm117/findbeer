@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "findbeer",
+    "slug": "findbeer",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/HomeScreen/icon.png",
+    "splash": {
+      "image": "./assets/HomeScreen/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.mukesh.findBeer",
+      "versionCode": 1
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
