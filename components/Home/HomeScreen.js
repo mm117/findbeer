@@ -21,6 +21,11 @@ class HomeScreen extends Component {
       .then((user) => {
         that.registerForPushNotificationAsync(user);
       });
+      Notifications.addListener(that.listener)
+  }
+
+  listener = () => {
+    this.props.navigation.navigate("SearchTabNavigator", {initialRouteName: 'Favourites'});
   }
 
   registerForPushNotificationAsync = async (user) => {
